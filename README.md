@@ -42,17 +42,16 @@ Installation Instructions
 		<artifactId>junit</artifactId>
 		<version>4.11</version>
      </dependency>
-6. Start Alfresco server locally
-7. All the test cases related test data(test values) you can set it in the TestValues.xml file.
+6. All the test cases related test data(test values) you can set it in the TestValues.xml file.
    Location - alfresco-test-scripts/ABFT_4_2/src/test/resources/TestValues.xml
-8. Set Alfresco server URL
+7. Set Alfresco server URL
    Go to alfresco-test-scripts/ABFT_4_2/src/test/resources/TestProperties.xml
    And add the correct server URL <ServerUrl>http://localhost:8080/share/page/</ServerUrl>
-9. Set Alfresco Admin username and password 
+8. Set Alfresco Admin username and password 
    Go to alfresco-test-scripts/ABFT_4_2/src/test/resources/TestProperties.xml
      <AdminUsername>admin</AdminUsername>
      <AdminPassword>admin</AdminPassword>
-10. Make sure that the document that you will be using for Upload Test Case is available in your computer and Finder Window has List/Icon View (NOT Column View)
+9. Make sure that the document that you will be using for Upload Test Case is available in your computer and Finder Window has List/Icon View (NOT Column View)
     Go to alfresco-test-scripts/ABFT_4_2/src/test/resources/TestValues.xml
       <DocumentLibraryTest>
 		<test>
@@ -62,6 +61,7 @@ Installation Instructions
 			<userName>test</userName>
 		</test>
 	</DocumentLibraryTest>
+10. Start Alfresco server (local or remote, depending on your test xml configs)
 11. Go to alfresco-test-scripts/ABFT_4_2 via terminal
 12. Please type "mvn test" to build and run the test cases
 
