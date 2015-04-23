@@ -30,11 +30,13 @@ Installation Instructions
 3. Git clone alfresco-test-scripts to your local computer 
 4. Update pom.xml(alfresco-test-scripts/ABFT_4_2/pom.xml) with the latest selenium-java version
    You can find the latest version information here - http://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java
-     <pre><code><dependency>
+     ```xml
+	<dependency>
         	<groupId>org.seleniumhq.selenium</groupId>
         	<artifactId>selenium-java</artifactId>
         	<version>2.433.1</version>
-     </dependency></code></pre>
+     	</dependency>
+     ```
 5. Update pom.xml(alfresco-test-scripts/ABFT_4_2/pom.xml) with the latest Junit version
    Can find the latest version information here - http://mvnrepository.com/artifact/junit/junit
      <pre><code><dependency>
