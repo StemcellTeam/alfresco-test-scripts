@@ -1,8 +1,7 @@
 -----------
 DESCRIPTION
 -----------
-
-Alfresco basic functionality automation test-scripts using Selenium web-driver.
+Test scripts performed using the Selenium Firefox driver for basic Alfresco actions such as adding users, CRUD operations and search functionality. 
 
 Selenium Web-driver
 ------------------
