@@ -60,7 +60,7 @@ Installation Instructions
      <AdminPassword>admin</AdminPassword>
 9. Make sure that the document that you will be using for Upload Test Case is available in your computer and Finder Window has List/Icon View (NOT Column View)
     Go to alfresco-test-scripts/ABFT_4_2/src/test/resources/TestValues.xml
-      	```
+    ```
 	<DocumentLibraryTest>
 		<test>
 			<siteName>Test Site 5</siteName>
