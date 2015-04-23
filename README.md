@@ -73,7 +73,6 @@ Installation Instructions
 10. Start Alfresco server (local or remote, depending on your test xml configs)
 11. Go to alfresco-test-scripts/ABFT_4_2 via terminal
 12. Please type "mvn test" to build and run the test cases
-13. 
 
 
 ----
