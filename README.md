@@ -30,7 +30,7 @@ Installation Instructions
 3. Git clone alfresco-test-scripts to your local computer 
 4. Update pom.xml(alfresco-test-scripts/ABFT_4_2/pom.xml) with the latest selenium-java version
    You can find the latest version information here - http://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java
-     ```xml
+     ```
 	<dependency>
         	<groupId>org.seleniumhq.selenium</groupId>
         	<artifactId>selenium-java</artifactId>
@@ -39,7 +39,7 @@ Installation Instructions
      ```
 5. Update pom.xml(alfresco-test-scripts/ABFT_4_2/pom.xml) with the latest Junit version
    Can find the latest version information here - http://mvnrepository.com/artifact/junit/junit
-     ```xml
+     ```
 	<dependency>
 		<groupId>junit</groupId>
 		<artifactId>junit</artifactId>
@@ -51,7 +51,7 @@ Installation Instructions
 7. Set Alfresco server URL
    Go to alfresco-test-scripts/ABFT_4_2/src/test/resources/TestProperties.xml
    And add the correct server URL Example: 
-```xml
+```
 <ServerUrl>http://localhost:8080/share/page/</ServerUrl>
 ```
 8. Set Alfresco Admin username and password 
@@ -60,7 +60,7 @@ Installation Instructions
      <AdminPassword>admin</AdminPassword>
 9. Make sure that the document that you will be using for Upload Test Case is available in your computer and Finder Window has List/Icon View (NOT Column View)
     Go to alfresco-test-scripts/ABFT_4_2/src/test/resources/TestValues.xml
-      ```xml
+      ```
 	<DocumentLibraryTest>
 		<test>
 			<siteName>Test Site 5</siteName>
