@@ -51,9 +51,9 @@ Installation Instructions
 7. Set Alfresco server URL
    Go to alfresco-test-scripts/ABFT_4_2/src/test/resources/TestProperties.xml
    And add the correct server URL Example: 
-```
-<ServerUrl>http://localhost:8080/share/page/</ServerUrl>
-```
+	```
+	<ServerUrl>http://localhost:8080/share/page/</ServerUrl>
+	```
 8. Set Alfresco Admin username and password 
    Go to alfresco-test-scripts/ABFT_4_2/src/test/resources/TestProperties.xml
      <AdminUsername>admin</AdminUsername>
