@@ -80,6 +80,6 @@ Note
 
 Alfresco basic functionality automation test-scripts fully tested on:
 
-1. Alfresco 4.2+ server (Tested up to 5.0) 
-2. Firefox and Chrome browsers
+1. Alfresco 4.2+ server (Tested up to 5.0.1.0) 
+2. Firefox browser
 3. Mac OSX 10.10 (other versions not tested)
