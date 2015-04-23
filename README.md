@@ -60,7 +60,8 @@ Installation Instructions
      <AdminPassword>admin</AdminPassword>
 9. Make sure that the document that you will be using for Upload Test Case is available in your computer and Finder Window has List/Icon View (NOT Column View)
     Go to alfresco-test-scripts/ABFT_4_2/src/test/resources/TestValues.xml
-      <DocumentLibraryTest>
+      ```xml
+	<DocumentLibraryTest>
 		<test>
 			<siteName>Test Site 5</siteName>
 			<siteId>test-site-5</siteId>
@@ -68,6 +69,7 @@ Installation Instructions
 			<userName>test</userName>
 		</test>
 	</DocumentLibraryTest>
+	```
 10. Start Alfresco server (local or remote, depending on your test xml configs)
 11. Go to alfresco-test-scripts/ABFT_4_2 via terminal
 12. Please type "mvn test" to build and run the test cases
