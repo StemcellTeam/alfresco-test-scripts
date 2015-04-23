@@ -39,16 +39,20 @@ Installation Instructions
      ```
 5. Update pom.xml(alfresco-test-scripts/ABFT_4_2/pom.xml) with the latest Junit version
    Can find the latest version information here - http://mvnrepository.com/artifact/junit/junit
-     <pre><code><dependency>
+     ```xml
+	<dependency>
 		<groupId>junit</groupId>
 		<artifactId>junit</artifactId>
 		<version>4.11</version>
-     </dependency></code></pre>
+     	</dependency>
+     ```
 6. All the test cases related test data(test values) you can set it in the TestValues.xml file.
    Location - alfresco-test-scripts/ABFT_4_2/src/test/resources/TestValues.xml
 7. Set Alfresco server URL
    Go to alfresco-test-scripts/ABFT_4_2/src/test/resources/TestProperties.xml
-   And add the correct server URL Example: <pre><code><ServerUrl>http://localhost:8080/share/page/</ServerUrl></code></pre>
+   And add the correct server URL Example: ```xml
+<ServerUrl>http://localhost:8080/share/page/</ServerUrl>
+```
 8. Set Alfresco Admin username and password 
    Go to alfresco-test-scripts/ABFT_4_2/src/test/resources/TestProperties.xml
      <AdminUsername>admin</AdminUsername>
